@@ -1,5 +1,5 @@
 # SystemLink State Examples
-This project includes examples of Salt states that can be imported into the [SystemLink States](http://www.ni.com/documentation/en/systemlink/latest/deployment/deploying-system-states/) view for deployment to remote systems.  For more information see [Salt States](https://docs.saltstack.com/en/latest/topics/tutorials/starting_states.html)
+This project includes examples of Salt states that can be imported into the [SystemLink's States](http://www.ni.com/documentation/en/systemlink/latest/deployment/deploying-system-states/) view for deployment to remote systems.  For more information see [Salt States](https://docs.saltstack.com/en/latest/topics/tutorials/starting_states.html)
 
 ## Clear NI Package Manager Logs.sls
 Example on how to remove logs or other files from a directory to free up disk space.
