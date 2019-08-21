@@ -31,3 +31,8 @@ Example on how to install a specific Windows KB/Patch.
 ## [Windows Updates.sls](Windows%20Updates.sls)
 Example on deploying Windows critical updates.
 [SALT.STATES.WIN_WUA MODULE](https://docs.saltstack.com/en/latest/ref/states/all/salt.states.win_wua.html)
+
+## [Change Master.sls](Change%20Master.sls)
+Example for changing your server for a managed system, which is useful when migrating from a test server to a production server.  This example also illustrates how to change the contents of a configuration file and force a reboot.
+[SALT.STATES.FILE](https://docs.saltstack.com/en/latest/ref/states/all/salt.states.file.html)
+[SALT.STATES.WIN_SYSTEM](https://docs.saltstack.com/en/latest/ref/states/all/salt.states.win_system.html#salt.states.win_system.reboot)
