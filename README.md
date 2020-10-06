@@ -36,3 +36,7 @@ Example on deploying Windows critical updates.
 Example for changing your server for a managed system, which is useful when migrating from a test server to a production server.  This example also illustrates how to change the contents of a configuration file and force a reboot.
 [SALT.STATES.FILE](https://docs.saltstack.com/en/latest/ref/states/all/salt.states.file.html)
 [SALT.STATES.WIN_SYSTEM](https://docs.saltstack.com/en/latest/ref/states/all/salt.states.win_system.html#salt.states.win_system.reboot)
+
+## [XML Example.sls](XML%20Example.sls)
+Shows how to modify an attribute stored in an XML file on the target using a state. Requires SystemLink Server and Client 2020 R3 or higher and currently only supported on Windows targets. NI Linux RT support is targetted for 2021 R1.
+[SALT.STATES.XML](https://docs.saltstack.com/en/develop/ref/states/all/salt.states.xml.html)
