@@ -3,7 +3,8 @@
     - formatter: yaml
     - dataset:
         master: 'test.systemlink.io'
-        master_type: 'str'
+        master_type: failover
+        retry_dns: 0
 
 remove_master_key:
   file.absent:
